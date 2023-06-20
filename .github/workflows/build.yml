@@ -22,7 +22,6 @@ jobs:
 
       - name: Build and Test with Maven
         run: mvn clean install && mvn test
-        working-directory: ./com-desafio-cooperativa-v1
 
       - name: Check build status
         run: |
