@@ -27,7 +27,7 @@ jobs:
 
     - name: Check build status
       run: |
-        if [[ ${{ success() }} == 'true' ]]; then
+        if [[ success() == 'true' ]]; then
           echo "Build and tests successful"
           exit 0
         else
