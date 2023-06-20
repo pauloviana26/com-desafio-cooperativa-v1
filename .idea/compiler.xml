@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com-desafio-cooperativa-v1" />
+        <module name="cooperativa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com-desafio-cooperativa-v1" target="17" />
+      <module name="cooperativa" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com-desafio-cooperativa-v1" options="-parameters" />
+      <module name="cooperativa" options="-parameters" />
     </option>
   </component>
 </project>
