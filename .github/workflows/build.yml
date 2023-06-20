@@ -21,10 +21,8 @@ jobs:
         distribution: 'adopt'
 
     - name: Build with Maven
-      run: mvn clean install
-
-    - name: Run Tests
-      run: mvn test
+      run: mvn clean install && mvn test
+      working-directory: ./com-desafio-cooperativa-v1
 
     - name: Check build status
       run: |
